@@ -6,8 +6,7 @@ const calculateSpaceTime = (timeMachine:TimeMachine) => {
     /**
      * CALC
      */
-
-    return 0;
+    return Math.sqrt(Math.pow(calculateTimeBalance(timeMachine).year, 2) + Math.pow(calculateTimeBalance(timeMachine).month, 2) + Math.pow(calculateTimeBalance(timeMachine).day, 2));
 }
 
 export default calculateSpaceTime;
